@@ -1,0 +1,114 @@
+.FavoriteItemList {
+    min-height: calc(100vh - 180px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FavoritesListMessage {
+    color: #F5C519;
+    padding: 1em;
+    margin: 10px auto;
+    align-self: center;
+    max-width: 767px;
+}
+
+.FavoritesListMessage h1 {
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+.FavoritesListMessage p {
+    font-size: 10pt;
+    color: #5c5c5c
+}
+
+.FavoriteItem {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 41.5px;
+    row-gap: 41.5px;
+    padding: 1em 0;
+    margin: auto;
+}
+
+.FavoritesContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.FavoritesContainer h1 {
+    color: #F5C519;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .FavoriteItem {
+        display: grid;
+        grid-template-columns: 300px;
+        column-gap: 41.5px;
+        row-gap: 41.5px;
+        align-content: center;
+        padding: 1em 0;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .FavoriteItem {
+        display: grid;
+        grid-template-columns: 300px;
+        column-gap: 41.5px;
+        row-gap: 41.5px;
+        align-content: center;
+        padding: 1em 0;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .FavoriteItem {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        column-gap: 41.5px;
+        row-gap: 41.5px;
+        align-content: center;
+        padding: 1em 0;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .FavoriteItem {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 41.5px;
+        row-gap: 41.5px;
+        align-content: center;
+        padding: 1em 0;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .FavoriteItem {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        column-gap: 41.5px;
+        row-gap: 41.5px;
+        align-content: center;
+        padding: 1em 0;
+        margin: auto;
+        justify-content: center;
+    }
+}
+

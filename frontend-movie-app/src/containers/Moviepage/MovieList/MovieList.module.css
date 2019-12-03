@@ -1,0 +1,79 @@
+.MovieListSection {
+    display: grid;
+    width: 1366px;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+}
+
+.MovieListContainer {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .MovieListSection {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px;
+        justify-content: center;
+        margin: auto;
+        gap: 50px;
+    }
+    
+    .MovieListContainer {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .MovieListSection {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+        margin: auto;
+        gap: 50px;
+    }
+    
+    .MovieListContainer {
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+}
+
+@media only screen and (min-width: 767px) {
+    .MovieListSection {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px 200px 200px;
+        justify-content: center;
+        margin: auto;
+        gap: 50px;
+    }
+    
+    .MovieListContainer {
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+}
+
+@media only screen and (min-width: 992px) {
+    .MovieListSection {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px 200px 200px 200px;
+        justify-content: center;
+        margin: auto;
+        gap: 50px;
+    }
+    
+    .MovieListContainer {
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+}
